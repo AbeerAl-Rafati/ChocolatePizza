@@ -59,7 +59,6 @@ color: gray;
 .topp{
 margin-bottom: 30px;
 position: relative;
-display: inline-block;
 }
 
 .top{
@@ -70,35 +69,39 @@ display: inline-block;
 
 .top2{
     float: left;
+    position: relative;
     
 }
 
 
 .top2 p{
     font-family: 'Oswald', sans-serif;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bolder;
     
 }
 
 .top2 h6{
-    font-size: xx-small;
-color: gray;
-left: 0%;
+    font-size: x-small;
+    color: gray;
+    left: 0%;
 }
 
-.print{
-    right: 0%;
-    display: inline-block;
-
+.left{
+    float: right;
+    color: gray;
+    right: 0;
+    
 }
 
-.print img{
-    display: inline-block;
+.left img{
+    float: left;
+    
 }
 
 .med img{
     width: 100%;
+    margin-top: 30px;
     
 }
 
