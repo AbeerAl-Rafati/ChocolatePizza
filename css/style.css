@@ -118,8 +118,9 @@ position: relative;
     position: relative;
     display: inline-block;
     background-image: url("../img/list-bg.png");
+    margin-bottom: 20px;
     color: gray;
-}
+    box-shadow: 5px 10px #d8cece;}
 
 .form1{
     float: left;
