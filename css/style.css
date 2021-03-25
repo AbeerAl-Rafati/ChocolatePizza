@@ -15,7 +15,7 @@ body{
 
 header{
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .logo{
@@ -53,6 +53,13 @@ color: gray;
 .social{
     margin-right: 20px;
 
+}
+
+
+.topp{
+margin-bottom: 30px;
+position: relative;
+display: inline-block;
 }
 
 .top{
@@ -125,6 +132,7 @@ left: 0%;
 
 .down{
     display: inline-block;
+    
 }
 .down img{
     float: left;
@@ -153,12 +161,16 @@ left: 0%;
 
 
 
-
+.line2 .line1{
+    border: 10px dashed rgb(155, 148, 148);
+}
 
 
 
 footer{
   margin: 50px;
-  align-items: center;   
+ text-align: center; 
   position: relative;
+  left: 25px;
 }
+
