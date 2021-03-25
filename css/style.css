@@ -155,7 +155,7 @@ input{
 }
 .down button{
   float: right;
-  background-color:rgb(126, 46, 46); /* Green */
+  background-color:rgb(122, 88, 43); /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -178,6 +178,6 @@ footer{
   margin: 50px;
  text-align: center; 
   position: relative;
-  left: 25px;
+  /* left: 20px; */
 }
 
