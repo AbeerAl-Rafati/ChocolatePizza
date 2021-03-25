@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    padding: 50px;
+
+   margin: auto;
+  width: 60%;
+
+}
+    
+
+
+header{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.logo{
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.logo h1 , h6{
+ margin-left: 50px;
+ margin-top: 5px;
+}
+
+.logo h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+.logo h6{
+font-size: xx-small;
+color: gray;
+}
+.logo img{
+    float: left;
+    height: 50px;
+}
+
+
+.socialmedia {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+
+.social{
+    margin-right: 20px;
+
+}
+
+.top{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.top2{
+    float: left;
+    
+}
+
+
+.top2 p{
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+.top2 h6{
+    font-size: xx-small;
+color: gray;
+left: 0%;
+}
+
+.print{
+    right: 0%;
+    display: inline-block;
+
+}
+
+.print img{
+    display: inline-block;
+}
+
+.med img{
+    width: 100%;
+    
+}
+
+
+.med p{
+    text-align: justify;
+    font-size: medium;
+    margin: 20px;
+    color: rgb(109, 105, 105);
+
+}
+
+.form{
+    padding: 10%;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    background-image: url("../img/list-bg.png");
+    color: gray;
+}
+
+.form1{
+    float: left;
+
+}
+
+.form2{
+    margin-left: 200px;
+    right: 0%;
+}
+
+.down{
+    display: inline-block;
+}
+.down img{
+    float: left;
+}
+.down h4 {
+    font-size: x-large;
+    margin-top: 10px;
+}
+.down h4 h5{
+    position: relative;
+    margin-left: 20px;
+
+}
+.down button{
+  float: right;
+  background-color:rgb(126, 46, 46); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+footer{
+  margin: 50px;
+  align-items: center;   
+  position: relative;
+}
