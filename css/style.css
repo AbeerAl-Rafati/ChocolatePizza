@@ -16,43 +16,50 @@ body{
 header{
     position: relative;
     margin-bottom: 50px;
+    
 }
 
 .logo{
-    margin: 10px;
-    display: inline-block;
+    display: inline;
+    
 
 }
 
-.logo h1 , h6{
- margin-left: 50px;
- margin-top: 5px;
-}
 
 .logo h1{
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
+    margin-left: 70px;
+    margin-right: 0;
+    width: 150px;
+    margin-top: 20px;
+
 }
 
 .logo h6{
 font-size: xx-small;
 color: gray;
+margin-left: 70px;
+width: 150px;
 }
 .logo img{
     float: left;
-    height: 50px;
+    height: 60px;
 }
 
 
 .socialmedia {
-    position: absolute;
+    position: relative;
     right: 0;
     display: inline-block;
+    left: 430px;
 }
 
 .social{
-    margin-right: 20px;
-
+    margin-right: 40px;
+    position:relative;
+    display: contents;
+    
 }
 
 
@@ -69,6 +76,8 @@ position: relative;
 
 .top2{
     position: relative;
+    top: 30px;
+   
     
 }
 
@@ -77,19 +86,25 @@ position: relative;
     font-family: 'Oswald', sans-serif;
     font-size: x-large;
     font-weight: bolder;
-    
+    display: block;
 }
 
 .top2 h6{
     font-size: x-small;
     color: gray;
     left: 0%;
+    display: block;
+    margin-top: 20px;
+
 }
 
 .left{
     float: right;
     color: gray;
     right: 0;
+    width: 50px;
+    position: relative;
+    top: 30px;
     
 }
 
@@ -118,6 +133,7 @@ position: relative;
     position: relative;
     display: inline-block;
     background-image: url("../img/list-bg.png");
+    background-repeat: no-repeat;
     margin-bottom: 20px;
     color: gray;
     box-shadow: 5px 10px #d8cece;}
@@ -129,7 +145,8 @@ position: relative;
 
 .form2{
     margin-left: 300px;
-    right: 0%;
+    position: relative;
+    
     font-size: large;
 }
 
@@ -140,36 +157,56 @@ input{
 .down{
     display: inline-block;
     
+    
 }
 .down img{
-    float: left;
+    position: relative;
+    margin: 10px;
 }
 .down h4 {
     font-size: x-large;
     margin-top: 10px;
+    position: relative;
+    padding: 10px;
+    text-align: justify;
 }
-.down h4 h5{
+/* .down h4 h5{
     position: relative;
     margin-left: 20px;
+    width: 30px;
+   */
 
+
+.text{
+    position: relative;
+    width: 400px;
+    left: 75px;
+    text-align: left;
+    margin-left: 20px;
+    bottom: 100px;
 }
+
 .down button{
-  float: right;
-  background-color:rgb(122, 88, 43); /* Green */
+  display: inline-block;
+  background-color: rgb(122, 88, 43);
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  /* display: inline-block; */
+  position: relative;
   font-size: 16px;
+  left: 500px;
+  bottom: 150px;
+
 }
 
 
 
 
-.line2 .line1{
+hr{
     border: 10px dashed rgb(155, 148, 148);
+    margin-bottom: 10px;
 }
 
 
