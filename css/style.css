@@ -150,6 +150,17 @@ position: relative;
     font-size: large;
 }
 
+
+.engredint:checked + .eng {
+    text-decoration: line-through
+  }
+
+
+
+
+
+
+
 input{
     margin: 7px;
 }
@@ -170,11 +181,6 @@ input{
     padding: 10px;
     text-align: justify;
 }
-/* .down h4 h5{
-    position: relative;
-    margin-left: 20px;
-    width: 30px;
-   */
 
 
 .text{
